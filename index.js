@@ -4,7 +4,7 @@ const mongoose=require('mongoose')
 const _=require("lodash")
 
 const app=express()
-mongoose.connect("mongodb+srv://ayush:test123@cluster0.ir3ioj3.mongodb.net/todolistdb?retryWrites=true&w=majority")
+mongoose.connect("Give your conection url here")
 app.use(express.urlencoded({extended:true}))
 app.set("view engine","ejs")
 app.use(express.static("public"))
